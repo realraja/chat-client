@@ -82,7 +82,7 @@ function Register() {
             />
             <label
               htmlFor="photo-upload"
-              className="absolute bottom-1 right-[1px] cursor-pointer bg-gray-700 p-1 rounded-full"
+              className="absolute bottom-0 -right-1 cursor-pointer bg-gray-700 p-1 rounded-full"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@ function Register() {
             <p>OR</p>
           </div>
           <div className="text-center mt-4">
-            <a href="#" className="text-purple-600">
+            <a href="/login" className="text-purple-600">
               LOGIN INSTEAD
             </a>
           </div>
